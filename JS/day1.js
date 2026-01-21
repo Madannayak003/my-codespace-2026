@@ -12,6 +12,7 @@ console.log("student:", isStudent);
 console.log(text, myName, myAge, isStudent);
 */
 
+/*
 let myName = "Madan";
 console.log(myName);
 
@@ -26,4 +27,12 @@ let pincode = 571129
 
 console.log(city);
 console.log(pincode);
+*/
 
+let score = 95;
+let username = "coder";
+let passed = "true";
+
+console.log(typeof score);
+console.log(typeof username);
+console.log(typeof passed);
