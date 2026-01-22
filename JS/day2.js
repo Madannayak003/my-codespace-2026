@@ -110,3 +110,23 @@ if (username === "admin" && password === "12345"){
 } else {
     console.log("LOGIN FAILED");
 }
+
+// 11 temperature check
+
+let temp = 38;
+
+if (temp > 35){
+    console.log("HOT");
+} else {
+    console.log("Normal");
+}
+
+// 12 number in range
+
+let val = 15;
+
+if (val >=10 && val <= 20){
+    console.log("val is in range: 10 to 20\n: value is", val);
+} else {
+    console.log("val is out of range");
+}
