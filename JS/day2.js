@@ -130,3 +130,38 @@ if (val >=10 && val <= 20){
 } else {
     console.log("val is out of range");
 }
+
+
+// --------------------------------------------------------------------------------------------------------------------------//
+// 13 Vowel or Consonant
+
+let char = 'a';
+
+if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u' ||
+    char === 'A' || char === 'E' || char === 'I' || char === 'O' || char === 'U'){
+    console.log("Vowel");
+} else {
+    console.log("Consonant");
+}
+
+// 14 Positive, Negative or Zero
+
+let numbers = 0;
+
+if (numbers > 0){
+    console.log("Positive Number");
+}   else if (numbers < 0){
+    console.log("Negative Number");
+} else {
+    console.log("Zero");
+}       
+
+// 15 Alphabet or Not
+
+let ch = 'M';
+
+if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')){
+    console.log("Alphabet");
+} else {
+    console.log("Not an Alphabet");
+}
