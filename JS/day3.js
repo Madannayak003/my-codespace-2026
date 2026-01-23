@@ -43,3 +43,21 @@ let num = 8;
 for ( let i = 1; i <= 10; i++) {
     console.log(num + "x" + i + "=" + (num * i));
 }
+
+// 7: Countdown (while loop)
+
+let i = 5;
+
+while (i >= 1){
+    console.log(i);
+    i--;
+}
+
+// 8: Print Hello 3 Times
+
+let count = 1;
+
+while (count <= 3){
+    console.log("HELLO");
+    count++;
+}
