@@ -35,3 +35,11 @@ for (let i =1; i <=5; i++){
 }
 
 console.log("sum:",sum);
+
+// 6: Multiplication Table (5)
+
+let num = 8;
+
+for ( let i = 1; i <= 10; i++) {
+    console.log(num + "x" + i + "=" + (num * i));
+}
