@@ -21,8 +21,7 @@ I am learning step-by-step with **hands-on practice** and **daily commits**.
 - `console.log()` usage
 - Basic program execution using Node.js
 
-###  File
-
+## File
 
 ###  Programs Practiced
 - Store and print values
@@ -46,7 +45,7 @@ I am learning step-by-step with **hands-on practice** and **daily commits**.
 - Logical operators (`&&`)
 - Decision making in programs
 
-### File
+## File
 
 ###  Programs Practiced
 - Positive / Negative number check
@@ -60,10 +59,10 @@ I am learning step-by-step with **hands-on practice** and **daily commits**.
 - Temperature check
 - Number range validation
 
----
-
 ###  Key Learning
 > JavaScript executes **only the block whose condition is true**.
+
+---
 
 ## Day 3: Loops (for / while) 
 
@@ -80,11 +79,8 @@ Today I learned how to use **loops** in JavaScript to repeat tasks efficiently i
 - `break` statement
 - Printing output line by line and side by side
 
----
 
-### File
-
----
+## File
 
 ### Programs Practiced
 - Print numbers from 1 to 5
@@ -98,9 +94,8 @@ Today I learned how to use **loops** in JavaScript to repeat tasks efficiently i
 - Sum calculation using `while`
 - Stop loop execution using `break`
 
----
+## Key Learnings
 
-### 🧠 Key Learnings
 - Loops help avoid code repetition
 - `for` loop is best when the number of iterations is known
 - `while` loop is useful when the condition controls repetition
