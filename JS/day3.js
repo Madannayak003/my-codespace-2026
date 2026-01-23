@@ -61,3 +61,24 @@ while (count <= 3){
     console.log("HELLO");
     count++;
 }
+
+// 9: Sum Using while Loop
+
+let total = 0;
+let n = 1;
+
+while (n <= 5){
+    total += n;
+    n++;
+}
+
+console.log("Total:", total);
+
+// 10: Break Loop
+
+for ( let i = 1; i <= 10; i++){
+    if (i === 7){
+        break;
+    }
+    console.log(i);
+}
