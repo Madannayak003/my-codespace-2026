@@ -60,8 +60,53 @@ I am learning step-by-step with **hands-on practice** and **daily commits**.
 - Temperature check
 - Number range validation
 
+---
+
 ###  Key Learning
 > JavaScript executes **only the block whose condition is true**.
+
+## Day 3: Loops (for / while) 
+
+Today I learned how to use **loops** in JavaScript to repeat tasks efficiently instead of writing the same code multiple times.
+
+---
+
+### Topics Covered
+- `for` loop
+- `while` loop
+- Loop initialization, condition, and increment
+- Using loops with conditions
+- Accumulating values using loops
+- `break` statement
+- Printing output line by line and side by side
+
+---
+
+### File
+
+---
+
+### Programs Practiced
+- Print numbers from 1 to 5
+- Print numbers from 1 to 10
+- Print even numbers
+- Print odd numbers
+- Sum of numbers using a loop
+- Multiplication table
+- Countdown using `while` loop
+- Repeating text using `while`
+- Sum calculation using `while`
+- Stop loop execution using `break`
+
+---
+
+### 🧠 Key Learnings
+- Loops help avoid code repetition
+- `for` loop is best when the number of iterations is known
+- `while` loop is useful when the condition controls repetition
+- Variables like `sum` must be initialized before accumulation
+- `console.log()` prints output line by line
+- `process.stdout.write()` prints output side by side
 
 ---
 
