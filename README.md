@@ -159,21 +159,21 @@ Today I learned how to use **functions** in JavaScript to write reusable, clean,
 
 ---
 
-## 📈 Learning Progress
+### 📈 Learning Progress
 
 ```mermaid
 graph TD
-    D1[Day 1<br/>Variables & Data Types ✅]
-    D2[Day 2<br/>Conditions if/else ✅]
-    D3[Day 3<br/>Loops ✅]
-    D4[Day 4<br/>Functions ✅]
-    D5[Day 5<br/>Arrays ⏳]
+    D1["Day 1<br/>Variables & Data Types ✅"]
+    D2["Day 2<br/>Conditions if/else ✅"]
+    D3["Day 3<br/>Loops ✅"]
+    D4["Day 4<br/>Functions ✅"]
+    D5["Day 5<br/>Arrays ⏳"]
 
-    D1 --> D2 --> D3 --> D4 --> D5
-    
----
+    D1 --> D2
+    D2 --> D3
+    D3 --> D4
+    D4 --> D5
 
->  *Consistency over speed. Learning by doing.*
+Consistency over speed. Learning by doing.
 
----
 
