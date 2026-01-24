@@ -55,3 +55,25 @@ function checkAge(age){
 
 console.log(checkAge(20)); // Output: Eligible to vote
 console.log(checkAge(16)); // Output: Not Eligible to vote
+
+// 7: sum from 1 to N
+
+function sumToN(n){
+    let sum = 0;
+    for (let i =1; i <= n; i++){
+        sum += i;
+    }
+    return sum;
+}
+
+console.log(sumToN(5)); // Output: 15
+console.log(sumToN(10)); // Output: 55
+
+// 8: Default Parameters
+
+function greet(name = "Guest"){
+    console.log("Hello", name);
+}
+
+greet(); // Output: Hello Guest
+greet("Madan"); // Output: Hello Madan
