@@ -176,4 +176,3 @@ graph TD
 
 Consistency over speed. Learning by doing.
 
-
