@@ -102,3 +102,72 @@ console.log(calculator(10, 5, "*")); // Output: 50
 console.log(calculator(10, 5, "/")); // Output: 2    
 
 console.log(calculator(10, 5, "%")); // Output: Invalid operator
+
+
+// ----------------------------------------------------------------------------------------------------------------------------//
+
+// 11: Factorial Function
+
+function factorial(n){
+    if (n === 0 || n === 1) return 1;
+    return n * factorial(n - 1);
+}
+
+console.log(factorial(5)); // Output: 120
+console.log(factorial(0)); // Output: 1         
+console.log(factorial(1)); // Output: 1
+
+// 12: Fibonacci Function
+
+function fibonacci(n){
+    if (n <= 0) return 0;
+    if (n === 1) return 1;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+console.log(fibonacci(6));  // Output: 8
+console.log(fibonacci(0));  // Output: 0
+console.log(fibonacci(1));  // Output: 1
+console.log(fibonacci(7));  // Output: 13
+
+// 13: Palindrome Check Function
+
+function isPalindrome(str){
+    let reversed = str.split('').reverse().join('');
+    return str === reversed;
+}
+
+console.log(isPalindrome("madam"));   // Output: true
+console.log(isPalindrome("racecar")); // Output: true
+
+// 14: Find Maximum in Array
+
+function findMax(arr){
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++){
+        if (arr[i] > max){
+            max = arr[i];
+        }
+    }
+    return max;
+}
+
+console.log(findMax([3, 5, 7, 2, 8])); // Output: 8
+console.log(findMax([-10, -5, -3]));   // Output: -3
+
+// 15: Count Vowels in String
+
+function countVowels(str){          
+    let count = 0;
+    const vowels = "aeiouAEIOU";
+    for (let char of str){
+        if (vowels.includes(char)){
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(countVowels("Hello World"));; // Output: 3
+console.log(countVowels("Madan.R"));    // Output: 2        
+
