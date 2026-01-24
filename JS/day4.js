@@ -71,9 +71,34 @@ console.log(sumToN(10)); // Output: 55
 
 // 8: Default Parameters
 
-function greet(name = "Guest"){
+function greet2(name = "Guest"){
     console.log("Hello", name);
 }
 
-greet(); // Output: Hello Guest
-greet("Madan"); // Output: Hello Madan
+greet2(); // Output: Hello Guest
+greet2("Madan"); // Output: Hello Madan
+
+// 9: Arrow Function
+
+const multiply = (a, b) => {
+    return a * b;
+}
+
+console.log(multiply(3, 4)); // Output: 12
+
+// 10:  Mini project - calculator
+
+function calculator(a , b, operator){
+    if ( operator === "+") return a + b;
+    if ( operator === "-") return a - b;
+    if ( operator === "*") return a * b;
+    if ( operator === "/") return a / b;
+    return "Invalid operator";
+}
+
+console.log(calculator(10, 5, "+")); // Output: 15  
+console.log(calculator(10, 5, "-")); // Output: 5 
+console.log(calculator(10, 5, "*")); // Output: 50
+console.log(calculator(10, 5, "/")); // Output: 2    
+
+console.log(calculator(10, 5, "%")); // Output: Invalid operator
