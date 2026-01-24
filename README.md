@@ -2,15 +2,16 @@
 
 # JavaScript Learning Journey
 
-This repository documents my **daily JavaScript learning progress** using **GitHub Codespaces + VS Code**.  
+This repository documents my **daily JavaScript learning progress** using  
+**GitHub Codespaces + VS Code**.
+
 I am learning step-by-step with **hands-on practice** and **daily commits**.
 
 ---
 
-## Day 1: Variables & Data Types 
+## 📅 Day 1: Variables & Data Types
 
-###  Topics Covered
-
+### Topics Covered
 - Variables (`let`, `const`)
 - Data Types
   - Number
@@ -20,131 +21,101 @@ I am learning step-by-step with **hands-on practice** and **daily commits**.
   - Undefined
 - Updating variable values
 - `console.log()` usage
-- Basic program execution using Node.js
+- Running JavaScript using Node.js
 
-## File
-
-###  Programs Practiced
+### Programs Practiced
 - Store and print values
 - Check data types using `typeof`
 - Update variable values
 - Display multiple values together
-- Understand redeclaration vs reassignment
+- Redeclaration vs reassignment
 
-###  Key Learning
+### Key Learning
 > Variables can be **declared once** and **updated many times** using `let`.
 
 ---
 
-## Day 2: Conditions (if / else) 
+## 📅 Day 2: Conditions (if / else)
 
 ### Topics Covered
-- `if` statement
-- `else` statement
-- `else if` ladder
+- `if`, `else`, `else if`
 - Comparison operators (`>`, `<`, `>=`, `<=`, `===`)
 - Logical operators (`&&`)
-- Decision making in programs
+- Decision making
 
-## File
-
-###  Programs Practiced
-- Positive / Negative number check
+### Programs Practiced
+- Positive / Negative number
 - Even / Odd number
 - Voting eligibility
 - Largest of two numbers
-- Pass / Fail logic
-- Grade calculation
-- Equality check
-- Simple login validation
+- Pass / Fail
+- Grade system
+- Login validation
 - Temperature check
-- Number range validation
+- Number range check
 
-###  Key Learning
+### Key Learning
 > JavaScript executes **only the block whose condition is true**.
 
 ---
 
-## Day 3: Loops (for / while) 
-
-Today I learned how to use **loops** in JavaScript to repeat tasks efficiently instead of writing the same code multiple times.
+## 📅 Day 3: Loops (for / while)
 
 ### Topics Covered
-
 - `for` loop
 - `while` loop
-- Loop initialization, condition, and increment
-- Using loops with conditions
-- Accumulating values using loops
+- Loop conditions and increments
+- Accumulation using loops
 - `break` statement
-- Printing output line by line and side by side
-
-
-## File
+- Printing output line by line vs side by side
 
 ### Programs Practiced
-- Print numbers from 1 to 5
-- Print numbers from 1 to 10
-- Print even numbers
-- Print odd numbers
-- Sum of numbers using a loop
+- Print numbers (1–10)
+- Even and odd numbers
+- Sum of numbers
 - Multiplication table
-- Countdown using `while` loop
-- Repeating text using `while`
-- Sum calculation using `while`
-- Stop loop execution using `break`
+- Countdown using `while`
+- Stop loop using `break`
 
-## Key Learnings
-- Loops help avoid code repetition
-- `for` loop is best when the number of iterations is known
-- `while` loop is useful when the condition controls repetition
-- Variables like `sum` must be initialized before accumulation
-- `console.log()` prints output line by line
-- `process.stdout.write()` prints output side by side
+### Key Learning
+- Loops reduce repetition
+- `for` is used when iterations are known
+- `while` is used when condition controls the loop
 
 ---
 
-## Day 4: Functions 
-
-Today I learned how to use **functions** in JavaScript to write reusable, clean, and organized code.
+## 📅 Day 4: Functions
 
 ### Topics Covered
-- What a function is
+- What is a function
 - Creating and calling functions
-- Function parameters
+- Parameters and arguments
 - `return` statement
-- Functions with conditions
-- Functions with loops
+- Functions with conditions and loops
 - Default parameters
-- Arrow functions (introduction)
-
-## File
+- Arrow functions (intro)
 
 ### Programs Practiced
-- Simple function execution
+- Simple function
 - Function with parameters
-- Add two numbers using a function
-- Return values from a function
-- Even or odd checker function
+- Add two numbers
+- Square of a number
+- Even / Odd function
 - Age eligibility checker
-- Sum of numbers using function + loop
-- Function with default parameters
-- Arrow function for multiplication
-- Mini calculator function
+- Sum from 1 to N
+- Arrow function
+- Calculator function
 
-### Key Learnings
-- Functions help avoid repeating code
-- A function runs only when it is called
-- Parameters allow functions to accept input
-- `return` sends a value back from a function
-- `console.log()` only displays output, it does not return data
-- Arrow functions are a shorter way to write functions
+### Key Learning
+- Functions avoid repeating code
+- `return` sends data back from a function
+- `console.log()` only displays output
 
 ---
 
 ## 🛠 Tools Used
 - JavaScript (Node.js)
-- VS Code
+- Visual Studio Code
 - Git & GitHub
 - GitHub Codespaces
 
@@ -159,7 +130,7 @@ Today I learned how to use **functions** in JavaScript to write reusable, clean,
 
 ---
 
-### 📈 Learning Progress
+## 📈 Learning Progress
 
 ```mermaid
 graph TD
@@ -173,6 +144,3 @@ graph TD
     D2 --> D3
     D3 --> D4
     D4 --> D5
-
-Consistency over speed. Learning by doing.
-
