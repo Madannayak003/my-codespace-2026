@@ -43,3 +43,9 @@ console.log(fruits); // Output: ["Apple", "orange", "Mango"]
 fruits.unshift("Grapes"); // Add "Grapes" at the start of the array
 
 console.log(fruits); // Output: ["Grapes", "Apple", "orange", "Mango"]
+
+// 9: Remove from Start (shift).
+
+fruits.shift(); // Remove the first element ("Grapes")
+
+console.log(fruits); // Output: ["Apple", "orange", "Mango"]
