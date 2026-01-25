@@ -49,3 +49,14 @@ console.log(fruits); // Output: ["Grapes", "Apple", "orange", "Mango"]
 fruits.shift(); // Remove the first element ("Grapes")
 
 console.log(fruits); // Output: ["Apple", "orange", "Mango"]
+
+// 10: Sum of Array Numbers.
+
+let numbers = [10, 20, 30, 40];
+let sum = 0;
+
+for( let i = 0; i < numbers.length; i++){
+    sum += numbers[i];
+}
+
+console,log("sum:",sum); // Output: sum: 100
