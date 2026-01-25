@@ -113,6 +113,45 @@ I am learning step-by-step with **hands-on practice** and **daily commits**.
 
 ---
 
+## 📅 Day 5: Arrays
+
+### Topics Covered
+- What an array is
+- Creating arrays
+- Accessing array elements using index
+- Array length
+- Updating array values
+- Looping through arrays
+- Common array methods:
+  - `push()`
+  - `pop()`
+  - `shift()`
+  - `unshift()`
+
+### 🧪 Programs Practiced
+- Create and print an array
+- Access elements using index
+- Find array length
+- Update array values
+- Loop through array using `for`
+- Add elements using `push()`
+- Remove last element using `pop()`
+- Add element at start using `unshift()`
+- Remove element from start using `shift()`
+- Find sum of numbers in an array
+
+### Key Learnings
+- Arrays store multiple values in one variable
+- Array index starts from **0**
+- `.length` helps control loops
+- `push()` adds an element at the end
+- `pop()` removes the last element
+- `unshift()` adds an element at the beginning
+- `shift()` removes the first element
+- Loops are commonly used to work with arrays
+
+---
+
 ## 🛠 Tools Used
 - JavaScript (Node.js)
 - Visual Studio Code
@@ -138,12 +177,14 @@ graph TD
     D2["Day 2<br/>Conditions if/else ✅"]
     D3["Day 3<br/>Loops ✅"]
     D4["Day 4<br/>Functions ✅"]
-    D5["Day 5<br/>Arrays ⏳"]
+    D5["Day 5<br/>Arrays ✅"]
+    D6["Day 6<br/>Objects ⏳]
 
     D1 --> D2
     D2 --> D3
     D3 --> D4
     D4 --> D5
+    D5 --> D6
 ```
 
 ---
