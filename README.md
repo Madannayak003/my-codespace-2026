@@ -178,7 +178,7 @@ graph TD
     D3["Day 3<br/>Loops ✅"]
     D4["Day 4<br/>Functions ✅"]
     D5["Day 5<br/>Arrays ✅"]
-    D6["Day 6<br/>Objects ⏳]
+    D6["Day 6<br/>Objects ⏳"]
 
     D1 --> D2
     D2 --> D3
