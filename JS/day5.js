@@ -59,4 +59,6 @@ for( let i = 0; i < numbers.length; i++){
     sum += numbers[i];
 }
 
-console,log("sum:",sum); // Output: sum: 100
+console.log("sum:",sum); // Output: sum: 100
+
+// ------------------------------------------------------- End --------------------------------------------------------------- // 
