@@ -34,3 +34,26 @@ person["profession"] = "Developer";
 
 delete person.age;
 delete person["city"];
+
+// 7: Print Updated Object
+
+console.log("Updated Person Object:", person);
+
+// 8: Loop through Object Properties
+
+for (let key in person) {
+    console.log(key + ": " + person[key]);
+}
+
+// 9: Check if Property Exists
+
+console.log("Has age property:", person.hasOwnProperty("age"));
+console.log("Has name property:", person.hasOwnProperty("name"));
+
+// 10: Get Object Keys and Values
+
+let keys = Object.keys(person);
+let values = Object.values(person);
+
+console.log("Keys:", keys);
+console.log("Values:", values);
