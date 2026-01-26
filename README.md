@@ -179,7 +179,7 @@ graph TD
     D4["Day 4<br/>Functions ✅"]
     D5["Day 5<br/>Arrays ✅"]
     D6["Day 6<br/>Objects ✅"]
-    D6["Day 7<br/>Arrays of objrct + real practice ⏳"]
+    D7["Day 7<br/>Arrays of objrct + real practice ⏳"]
 
     D1 --> D2
     D2 --> D3
